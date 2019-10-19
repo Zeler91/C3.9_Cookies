@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Cookie</title>
+</head>
+<body>
+	<input type="text" name="City" id="city" placeholder="Напишите свой город">
+	<br>
+	<button onclick="deleteCookie('city');city.value=''">Очистить</button>
+	<br>
+	<h1>Какие жанры фильмов вам нравятся?</h1>
+	<input class="film" type="checkbox" name="option1" id = "action">Боевик<br>
+	<input class="film" type="checkbox" name="option2" id = "detective">Детектив<br>
+	<input class="film" type="checkbox" name="option3" id = "drama">Драма<br>
+	<input class="film" type="checkbox" name="option4" id = "comedy">Комедия<br>
+	<input class="film" type="checkbox" name="option5" id = "documental">Документальный фильм<br>
+	<input class="film" type="checkbox" name="option6" id = "adventure">Приключенченский фильм<br>
+	<br>
+	<button onclick="checkboxSaving()">Сохранить</button>
+	<button onclick="checkboxRestart()">Сбросить</button>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
+
